@@ -1,0 +1,17 @@
+jalankan:
+`composer install`
+`npm install`
+`npm run build`
+
+kemudian:
+`php artisan key:generate`
+`php artisan migrate` kalau gabisa, pake perintah ini `php artisan migrate:fresh`
+`php artisan db:seed`
+
+jalankan
+`php artisan serve` di terminal untuk menyalakan server,
+satu lagi terminal untuk vite nya `npm run dev`
+
+coba cek
+
+untuk user, cek di file `DatabaseSeeder.php` ada di folder `database`
